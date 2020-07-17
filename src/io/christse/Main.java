@@ -3,7 +3,7 @@ package io.christse;
 public class Main {
 
     public static void main(String[] args) {
-        Robot r = new CompanionBot("My Brand New Bot");
+        Robot r = new ToyRobot("My Brand New Bot");
         r = new CookingModule(r);
         r = new GardeningModule(r);
 

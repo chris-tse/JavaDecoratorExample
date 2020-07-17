@@ -9,8 +9,13 @@ public class CookingModule extends RobotModule {
     }
 
     @Override
+    public String getName() {
+        return this.robot.getName();
+    }
+
+    @Override
     public void run() {
         this.robot.run();
-        System.out.println(this.name + " chops up some veggies and makes a nice salad.");
+        System.out.println(this.robot.getName() + " chops up some veggies and makes a nice salad.");
     }
 }

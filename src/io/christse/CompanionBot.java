@@ -8,6 +8,6 @@ public class CompanionBot extends Robot {
 
     @Override
     public void run() {
-        System.out.println(this.name + " beeps and boops happily.");
+        System.out.println(name + " beeps and boops happily.");
     }
 }
